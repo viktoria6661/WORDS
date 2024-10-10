@@ -1,0 +1,61 @@
+html{
+    left: 0;
+    top: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(231, 223, 223);
+}
+
+h1{
+    font-size:3rem;
+    text-align: center;
+    margin-bottom: 100px
+}
+
+h2 {
+    text-align: center;
+}
+
+.blue {
+    color: rgb(106, 143, 224);
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+    margin-bottom: 100px;
+}
+
+.word{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.word > button{
+    font-size: 2rem;
+    display: inline-block;
+    border: none;
+    background-color: rgba(214, 158, 231, 0);
+}
+
+footer{
+    width: 100%;
+    padding: 10px;
+    bottom: 0px;
+    left: 0px;
+    position:fixed;
+    background-color: rgb(231, 223, 223);
+}
+
+@media (max-width: 600px){
+    h1{
+        font-size: 2rem;
+    }
+    .word > button{
+        font-size: 1rem;
+        margin: 0px;
+        padding: 3px;
+    }
+}
